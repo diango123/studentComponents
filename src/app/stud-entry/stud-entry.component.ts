@@ -1,11 +1,11 @@
 import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-entry', 
-  templateUrl: './entry.component.html',
-  styleUrls: ['./entry.component.css']
+  selector: 'app-stud-entry', 
+  templateUrl: './stud-entry.component.html',
+  styleUrls: ['./stud-entry.component.css']
 })
-export class EntryComponent implements OnInit {
+export class StudEntryComponent implements OnInit {
   @Output() Entry = new EventEmitter<any>();
 
   studNo: number;
