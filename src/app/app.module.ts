@@ -7,6 +7,7 @@ import { StudEntryComponent } from './stud-entry/stud-entry.component';
 import { StudListComponent } from './stud-list/stud-list.component';
 import { StudOutputComponent } from './stud-output/stud-output.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,3 +23,5 @@ import { StudOutputComponent } from './stud-output/stud-output.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
