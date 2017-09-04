@@ -70,4 +70,9 @@ clearValues(): void{
   this.studYr = null;
 }
 
+onSubmit(regObject){
+
+  
 }
+}
+

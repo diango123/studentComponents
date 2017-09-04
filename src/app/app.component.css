@@ -21,7 +21,7 @@ tr: nth-child(even){
 
 }
 
-form-control.invalid{
-
+input.regForm.invalid.touched{
+    border: 1px red;
 
 }

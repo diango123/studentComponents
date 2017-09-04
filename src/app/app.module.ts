@@ -24,4 +24,3 @@ import { StudOutputComponent } from './stud-output/stud-output.component';
 })
 export class AppModule { }
 
-
